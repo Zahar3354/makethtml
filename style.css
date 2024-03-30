@@ -8,6 +8,7 @@ header {
     padding:25 px ;
     margin-bottom: 20 px;
     display: flex;
+    align-items: center;
 }
 
 .button {
@@ -49,8 +50,9 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100 px;
-    margin: 0 px;
+    margin: 0 px  auto 0 px auto;
       display: flex;
+      max-width: 1100 px;
 }
 
 article {
@@ -81,4 +83,7 @@ footer a {
 
 footer p {
     font-size: 24 px;
+}
+a{
+    display: block;
 }
